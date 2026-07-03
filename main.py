@@ -20,12 +20,13 @@ import os
 # pip install pocketsphinx
 
 # recognizer = sr.Recognizer()
-engine = pyttsx3.init() 
+# engine = pyttsx3.init() 
 newsapi = "<Leaving this api right now>"
 
-def speak_old(text):
-    engine.say(text)
-    engine.runAndWait()
+# def speak_old(text):
+#     engine.say(text)
+#     engine.runAndWait()
+# this is used for speaking but their is looked like robotic so i just change this to google voice
 
 def speak(text):
     tts = gTTS(text)
