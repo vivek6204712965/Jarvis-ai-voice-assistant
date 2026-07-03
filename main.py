@@ -26,7 +26,7 @@ newsapi = "<Leaving this api right now>"
 # def speak_old(text):
 #     engine.say(text)
 #     engine.runAndWait()
-# this is used for speaking but their is looked like robotic so i just change this to google voice
+# this is used for speaking but their voice is looked like robotic so i just change this to google voice
 
 def speak(text):
     tts = gTTS(text)
